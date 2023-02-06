@@ -103,7 +103,7 @@ hr_rules_dataframe = hr_rules_dataframe[hr_rules_dataframe['LHS'].apply(lambda x
 
 displayResult('Rules Related to HR', hr_rules_dataframe)
 
-# figure = px.scatter(hr_rules_dataframe, x='Support', y='Confidence', color='Lift', hover_data=['LHS', 'RHS'], size='Confidence', color_continuous_scale='agsunset', title='Generated Rules')
+figure = px.scatter(hr_rules_dataframe, x='Support', y='Confidence', color='Lift', hover_data=['LHS', 'RHS'], size='Confidence', color_continuous_scale='agsunset', title='Generated Rules')
 
-# plt.show()
-# figure.show()
+plt.show()
+figure.show()
