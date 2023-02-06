@@ -13,3 +13,5 @@ In this project, association rules mining is used to identify patterns in the cl
 
 #### Generated Association Rules
 ![scatter-plot](figures/scatter-plot.png)
+
+![rules](figures/rules.png)
